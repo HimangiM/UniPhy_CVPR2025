@@ -1,0 +1,18 @@
+defaults:
+  - submitit_slurm
+
+_target_: hydra_plugins.hydra_submitit_launcher.submitit_launcher.SlurmLauncher
+timeout_min: 120 # 2 hours
+tasks_per_node: 1
+nodes: 1
+name: "embed4"
+comment: null
+exclude: null
+signal_delay_s: 600
+max_num_timeout: 20
+additional_parameters: {}
+array_parallelism: 2
+setup: []
+mem_gb: 50
+gres: gpu:1
+

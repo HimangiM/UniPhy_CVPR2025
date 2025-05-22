@@ -1,0 +1,9 @@
+sdf_func: 'blobby'
+sdf_params: [0.75, 1.5, 0.05]
+num_particles: 80000
+rot_x: 0
+rot_y: 90
+rot_z: 45
+pos_x: 0
+pos_y: 0.2
+pos_z: 0

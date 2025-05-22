@@ -1,0 +1,2 @@
+material_type: nonhomogeneous
+materials: [MPMSimulator.elasticity, MPMSimulator.drucker_prager]

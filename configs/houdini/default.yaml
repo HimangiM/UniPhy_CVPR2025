@@ -1,0 +1,17 @@
+houdini_vis: True
+camera_tx: -7.58596
+camera_ty: 3.25918
+camera_tz: -19.3497
+camera_rx: -6.4033
+camera_ry: -158.026
+camera_rz: -3.87343
+light_tx: -4.09
+light_ty: 7.01
+light_tz: -5.81
+light_rx: -138.041
+light_ry: 34.6622
+light_rz: 0
+box_color: [0.4, 0.2, 0]
+obj_color: [1, 0, 0]
+
+

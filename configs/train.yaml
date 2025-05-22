@@ -1,0 +1,7 @@
+defaults:
+  - override hydra/launcher: submitit_slurm
+  - _self_
+
+batch_size: 128
+learning_rate: 1e-4
+seed: 42

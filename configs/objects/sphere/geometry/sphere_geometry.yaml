@@ -1,0 +1,10 @@
+sphere_geometry:
+  sdf_func: 'sphere'
+  sdf_params: [0.1]
+  num_particles: 80000
+  rot_x: 45
+  rot_y: 90
+  rot_z: 45
+  pos_x: 0
+  pos_y: 0.55
+  pos_z: 0

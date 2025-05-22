@@ -1,0 +1,4 @@
+material_exp: False
+param_exp: False
+material_dirs: ['oracle_Data/elastic_torus_orig', 'oracle_Data/newtonian_torus']
+param_dirs: ['oracle_Data/elastic_torus_orig', 'oracle_Data/elastic_torus_rho900']

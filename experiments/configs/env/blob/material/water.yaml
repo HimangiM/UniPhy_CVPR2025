@@ -1,0 +1,10 @@
+defaults:
+  - elasticity: volume_water
+  - plasticity: sigma
+  - _self_
+
+name: water
+ckpt: null
+traj_dir: '/data18/hmittal/azs_221_166/all_materials/data/water'
+ckpt_latent: '/data18/hmittal/azs_221_166/all_materials/ckpt/water.pt'
+

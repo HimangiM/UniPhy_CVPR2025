@@ -1,0 +1,9 @@
+defaults:
+  - elasticity: corotated_jelly
+  - plasticity: identity
+  - _self_
+
+name: jelly
+ckpt: null
+traj_dir: '/data18/hmittal/azs_221_166/all_materials/data/jelly'
+ckpt_latent: '/data18/hmittal/azs_221_166/all_materials/ckpt/jelly.pt'

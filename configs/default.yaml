@@ -1,0 +1,13 @@
+defaults:
+  - objects:
+      - torus
+#      - box
+#      - rounded_box
+#      - sphere
+  - simulator_cfg: default
+  - visualization_cfg: default
+  - houdini: default
+  - train_cfg: default
+  - dataset: default
+
+

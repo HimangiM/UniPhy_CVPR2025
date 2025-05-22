@@ -1,0 +1,9 @@
+sdf_func: 'rounded_box'
+sdf_params: [1.0, 0.09] #[0.5, 0.05]
+num_particles: 80000
+rot_x: 0 #45
+rot_y: 0 #90
+rot_z: -45 #45
+pos_x: 0
+pos_y: 0.55
+pos_z: 0

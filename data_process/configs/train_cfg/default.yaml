@@ -1,0 +1,19 @@
+lr: 0.1
+save_dir: None
+local_dir: None
+mu_init_val: 3.
+Fdet_reg: False
+focal_loss: False
+grad_clip_val: False
+grad_clip_norm: False
+weight_decay: False
+nn_activation: 'elu'
+nn_init_weight: 'uniform_5'
+stress_loss: False
+Ftransform: 'F'
+batch_size: 160
+load_model:
+lambda_lr_rate: 0.02
+hidden_size: 128
+cuda_chunk_size: 4096
+particles_ti_root: 1024

@@ -1,0 +1,10 @@
+defaults:
+  - meta
+  - _self_
+
+cls: StressNN
+layer_widths: [64, 64, 64, 64, 64, 64]
+latent_dim: 32
+embed_dim: 32
+hidden_size: 128
+

@@ -1,0 +1,11 @@
+material_type: MPMSimulator.von_mises
+object_material: nonnewtonian
+rho: 918.8990
+velocity: [-0.4062, -0.4979, -0.0667]
+mu: 8544.0117
+lam: 80186.1953
+yield_stress: 1354.8271
+plastic_viscosity: 2.5755
+friction_alpha: 0.
+inv_dt: 4800.
+inv_frame_dt: 50.

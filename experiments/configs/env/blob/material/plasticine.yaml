@@ -1,0 +1,9 @@
+defaults:
+  - elasticity: sigma_plasticine
+  - plasticity: von_mises_plasticine
+  - _self_
+
+name: plasticine
+ckpt: null
+traj_dir: '/data18/hmittal/azs_221_166/all_materials/data/plasticine'
+ckpt_latent: '/data18/hmittal/azs_221_166/all_materials/ckpt/plasticine.pt'

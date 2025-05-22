@@ -1,0 +1,11 @@
+material_type: MPMSimulator.viscous_fluid
+object_material: newtonian
+rho: 948.8589
+velocity: [-0.0005, -0.5017, 0.0010]
+mu: 211.0468
+lam: 73485.6094
+yield_stress: 1.
+plastic_viscosity: 0.
+friction_alpha: 0.
+inv_dt: 4800.
+inv_frame_dt: 24.

@@ -1,0 +1,9 @@
+sdf_func: 'rounded_cone'
+sdf_params: [0.75, 0.25, 2]
+num_particles: 80000
+rot_x: 250
+rot_y: 0
+rot_z: 0
+pos_x: 0
+pos_y: 0.2
+pos_z: 0

@@ -1,0 +1,10 @@
+box_geometry:
+  sdf_func: 'box'
+  sdf_params: [1.5]
+  num_particles: 80000
+  rot_x: 45
+  rot_y: 90
+  rot_z: 45
+  pos_x: 0
+  pos_y: 0.55
+  pos_z: 0
