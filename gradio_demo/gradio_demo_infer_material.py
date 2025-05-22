@@ -77,12 +77,9 @@ def render_point_cloud_simulation(material, geometry_label):
     current_folder = os.getcwd()
     config_overrides = {
         "train_cfg": {
-            # "traj_data_dir": os.path.join('/home/hmittal/diff-sim/houdini_webpage/demo/git_data', geometry_path),
             "traj_data_dir": os.path.join(current_folder, 'gradio_demo/gradio_demo_data', geometry_path),
-            # "load_model": '/data18/hmittal/azs_221_166/trained_models/latentlogs/pretrained_stress_fproj_models_latent_space/ckpt.pth',
             "load_model": os.path.join(current_folder, 'ckpt/pretrained_stress_fproj_models_latent_space/ckpt.pth'),
-            # "traj_latent_path": '/data18/hmittal/azs_221_166/trained_models/latentlogs/pretrained_stress_fproj_models_latent_space/traj_latent.pth',
-            "traj_latent_path": os.path.join(current_folder, 'ckpt/pretrained_stress_fproj_models_latent_space/traj_latent.pth')
+            "traj_latent_path": os.path.join(current_folder, 'gradio_demo/gradio_demo_data', 'ckpt/pretrained_stress_fproj_models_latent_space/traj_latent.pth')
         }
     }
     with initialize(config_path="configs", version_base=None):

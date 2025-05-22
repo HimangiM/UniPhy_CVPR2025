@@ -49,7 +49,7 @@ bash ./build.sh
 
 ## Run Demo
 
-Download the model weights and gradio demo data from [Google Drive Link](Link). 
+Download the model weights and gradio demo data from [Google Drive Link](https://drive.google.com/drive/folders/1C0FSG7DQ4b9qmu28Hw0ShyTK3PZhBMln?usp=drive_link). 
 Place the model weights in root_folder/ckpt folder and the gradio demo data in the root_folder/gradio_demo/gradio_demo_data folder.
 
 Run the demo to simulate material latent:
@@ -73,7 +73,7 @@ First, download the dataset or create a dataset for training.
 ### Dataset
 The dataset consists of five different classes of materials: elastic, plasticine, Newtonian fluids, non-Newtonian fluids, and sand. 
 Our dataset includes objects with various geometries, with motion in different directions and having a diverse range of material physical parameters. 
-The dataset can be downloaded from the [Google Drive Link](Link). 
+The dataset can be downloaded from the [Google Drive Link](https://drive.google.com/drive/folders/1C0FSG7DQ4b9qmu28Hw0ShyTK3PZhBMln?usp=drive_link). 
 
 To generate the dataset, run the following command.
 
