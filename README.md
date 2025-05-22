@@ -25,8 +25,8 @@ This codebase is tested using the environment with the following key packages:
 Setup conda environment:
 
 ```bash
-conda create -n uniphy python=3.10  # create env
-conda activate uniphy           # activate env
+conda create -n uniphy python=3.10
+conda activate uniphy
 ```
 
 Install required packages:
@@ -50,6 +50,7 @@ bash ./build.sh
 ## Run Demo
 
 Download the model weights and gradio demo data from [Google Drive Link](Link). 
+Place the model weights in ckpt folder and the gradio demo data in the gradio_demo/gradio_demo_data folder.
 
 Run the demo to simulate material latent:
 ```bash
