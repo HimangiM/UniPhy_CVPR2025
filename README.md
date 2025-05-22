@@ -5,7 +5,7 @@
 ##### <p align="center"> CVPR 2025
 
 
-#### <p align="center">[Paper]() | [Project Page]() | <a href="https://cmu.app.box.com/folder/285937780047?s=d4lrsn8iwsfgeczr6hpjm7ng5ifkcjah">Dataset</a> 
+#### <p align="center">[Paper]() | [Project Page](https://himangim.github.io/UniPhy/) | <a href="https://drive.google.com/drive/folders/1UzxwqxJs1OVZnvqFw081C-DGOeJO-SC4?usp=drive_link">Dataset</a> 
 
 # <p align="center"> ![Demo Animation](assets/grid_animation3.gif) </p>
 
