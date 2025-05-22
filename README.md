@@ -7,7 +7,7 @@
 
 #### <p align="center">[Paper]() | [Project Page]() | <a href="https://cmu.app.box.com/folder/285937780047?s=d4lrsn8iwsfgeczr6hpjm7ng5ifkcjah">Dataset</a> 
 
-# <p align="center"> ![Demo Animation](assets/grid_animation2.gif) </p>
+# <p align="center"> ![Demo Animation](assets/grid_animation3.gif) </p>
 
 ## Prerequisites
 
@@ -49,16 +49,16 @@ bash ./build.sh
 
 ## Run Demo
 
-Download the model weights from [Google Drive Link](Link):
+Download the model weights and gradio demo data from [Google Drive Link](Link). 
 
-```bash
-gdown Link
-unzip models.zip
-```
-
-Run the demo:
+Run the demo to simulate material latent:
 ```bash
 python gradio_demo/gradio_demo.py
+```
+
+Run the demo to infer material latent:
+```bash
+python gradio_demo/gradio_demo_infer_material.py
 ```
 
 ![teaser](assets/demo.png)
