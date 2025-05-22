@@ -1,0 +1,9 @@
+sdf_func: 'ellipsoid'
+sdf_params: [0.5, 1, 0.5]
+num_particles: 80000
+rot_x: 0
+rot_y: 0
+rot_z: 90
+pos_x: 0
+pos_y: 0.2
+pos_z: 0

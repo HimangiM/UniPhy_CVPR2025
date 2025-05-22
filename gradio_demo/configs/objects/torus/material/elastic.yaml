@@ -1,0 +1,11 @@
+material_type: MPMSimulator.elasticity
+object_material: elastic
+rho: 1000.
+velocity: [-0.1998, -0.5002, -0.1994] #[-0.2000, -0.7052, -0.2000]
+mu: 384615.4062
+lam: 576923.1875
+yield_stress: 1.
+plastic_viscosity: 0.
+friction_alpha: 0.
+inv_dt: 4800.
+inv_frame_dt: 24.

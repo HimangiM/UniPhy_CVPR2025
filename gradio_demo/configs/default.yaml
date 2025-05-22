@@ -1,0 +1,8 @@
+defaults:
+  - objects: torus
+  - simulator_cfg: default
+  - visualization_cfg: default
+  - houdini: default
+  - train_cfg: default
+
+

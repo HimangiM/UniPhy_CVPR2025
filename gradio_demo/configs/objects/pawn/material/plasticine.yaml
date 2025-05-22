@@ -1,0 +1,11 @@
+material_type: MPMSimulator.von_mises
+object_material: plasticine
+rho: 939.2694
+velocity: [9.5591e-04, -5.0317e-01,  1.5401e-04]
+mu: 882288.0625
+lam: 3360532.
+yield_stress: 16967.2480
+plastic_viscosity: 0.
+friction_alpha: 0.
+inv_dt: 4800.
+inv_frame_dt: 24.

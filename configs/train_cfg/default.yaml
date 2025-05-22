@@ -1,5 +1,5 @@
 grogu: False
-lr: 5e-4
+lr: 0.1
 save_dir: None
 local_dir: None
 material_data: oracle_Data/elastic_torus_orig
@@ -39,5 +39,3 @@ latent_init_config: None
 traj_latent_idx: None
 config_path: None
 eval_gt_nn_scenario: None
-hou_vis: False
-traj_data_dir: None

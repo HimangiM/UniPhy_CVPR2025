@@ -50,7 +50,7 @@ bash ./build.sh
 ## Run Demo
 
 Download the model weights and gradio demo data from [Google Drive Link](Link). 
-Place the model weights in ckpt folder and the gradio demo data in the gradio_demo/gradio_demo_data folder.
+Place the model weights in root_folder/ckpt folder and the gradio demo data in the root_folder/gradio_demo/gradio_demo_data folder.
 
 Run the demo to simulate material latent:
 ```bash

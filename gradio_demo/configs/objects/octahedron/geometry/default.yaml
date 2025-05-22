@@ -1,0 +1,9 @@
+sdf_func: 'octahedron'
+sdf_params: [1]
+num_particles: 80000
+rot_x: 90
+rot_y: 45
+rot_z: 0
+pos_x: 0
+pos_y: 0.2
+pos_z: 0

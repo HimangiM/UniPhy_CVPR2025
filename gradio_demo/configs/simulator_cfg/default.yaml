@@ -1,0 +1,4 @@
+dtype: 'float32'
+BC:
+  "ground": [[0,0,0], [0, 1, 0]]
+gravity: [0, -9.8, 0]
