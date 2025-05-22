@@ -2,10 +2,7 @@ from pathlib import Path
 import subprocess
 import os
 from argparse import ArgumentParser
-
 # import sys
-# sys.path.append("/mnt/gamit-local/hmittal/nclaw_repo_own_model/third_party/warp")
-
 from nclaw.constants import SHAPE_ENVS, ENVS, SEEDS, EPOCHS, RENDER, PYTHON_PATH
 from nclaw.utils import get_root, get_script_parser, dict_to_hydra, clean_state
 

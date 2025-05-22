@@ -7,4 +7,4 @@ rot_z: 45
 pos_x: 0
 pos_y: 0.2
 pos_z: 0
-points_file: '/data18/hmittal/visual-diff-sim/pac_nerf/simulation_data/torus/0.ply'
+points_file: None
