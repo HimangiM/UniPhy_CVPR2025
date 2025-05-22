@@ -5,5 +5,5 @@ defaults:
 
 name: sand
 ckpt: null
-traj_dir: '/data18/hmittal/azs_221_166/all_materials/data/sand'
-ckpt_latent: '/data18/hmittal/azs_221_166/all_materials/ckpt/sand.pt'
+traj_dir: 'data/sand'
+ckpt_latent: 'ckpt/sand.pt'

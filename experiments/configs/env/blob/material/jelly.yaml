@@ -5,5 +5,5 @@ defaults:
 
 name: jelly
 ckpt: null
-traj_dir: '/data18/hmittal/azs_221_166/all_materials/data/jelly'
-ckpt_latent: '/data18/hmittal/azs_221_166/all_materials/ckpt/jelly.pt'
+traj_dir: 'data/jelly'
+ckpt_latent: 'ckpt/jelly.pt'

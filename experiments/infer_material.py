@@ -1,3 +1,4 @@
+import os
 import random
 import sys
 import time
@@ -42,10 +43,10 @@ def main(cfg: DictConfig):
 
     torch_device = torch.device(f'cuda:{cfg.gpu}')
     torch.backends.cudnn.benchmark = True
+    current_folder = os.getcwd()
 
     # path
-    # ckpt_stage1_dir = f'/data18/hmittal/azs_221_166/trained_models/latent_nclaw/train_allmaterials_stressFC5L5L_hs128_embed32_100traj_1e3_jellyfinetune2'
-    ckpt_stage1_dir = cfg.env.blob.material.ckpt
+    ckpt_stage1_dir = os.path.join(current_folder, cfg.env.blob.material.ckpt)
     print ("Ckpt loaded from:", ckpt_stage1_dir)
 
     log_root: Path = root / 'log'
@@ -57,9 +58,7 @@ def main(cfg: DictConfig):
     ckpt_root: Path = exp_root / 'ckpt'
     ckpt_root.mkdir(parents=True, exist_ok=True)
 
-    # traj_dir = 'jelly_3/jelly_100000_0.2'
-    # dataset_root: Path = Path(f'/data18/hmittal/azs_221_166/dataset/{traj_dir}/dataset')
-    dataset_root: Path = Path(cfg.env.blob.material.traj_dir)
+    dataset_root: Path = Path(current_folder, cfg.env.blob.material.traj_dir)
 
     # data
     dataset = MPMDataset(dataset_root, torch_device)
@@ -92,12 +91,11 @@ def main(cfg: DictConfig):
     plasticity.requires_grad_(plasticity_requires_grad)
     plasticity.train(plasticity_requires_grad)
 
-    ckpt = torch.load(f'{ckpt_stage1_dir}/model_30.pth', map_location=torch_device)
+    ckpt = torch.load(f'{ckpt_stage1_dir}/ckpt.pth', map_location=torch_device)
     elasticity.load_state_dict(ckpt['stress_model_state_dict'])
     plasticity.load_state_dict(ckpt['plasticity_model_state_dict'])
 
-    print ("Kmeans-centroid latent loading....")
-    traj_path = f'{ckpt_stage1_dir}/traj_latent_30.pth'
+    traj_path = f'{ckpt_stage1_dir}/traj_latent.pth'
     trajectory_latent_embedding_orig = torch.load(traj_path).weight.detach()
     print ('Shape: ', trajectory_latent_embedding_orig.shape)
     kmeans = KMeans(n_clusters=10, random_state=42)
