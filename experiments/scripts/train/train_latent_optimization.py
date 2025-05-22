@@ -10,7 +10,7 @@ def main():
 
     base_args, unknown = get_script_parser().parse_known_args()
     base_args = vars(base_args)
-    base_cmds = [python_path, root / 'train_latent.py']
+    base_cmds = [python_path, root / 'infer_material.py']
 
     mode = 'train'
     quality = 'low'

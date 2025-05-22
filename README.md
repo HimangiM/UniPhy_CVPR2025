@@ -86,7 +86,7 @@ For training:
 
 ```bash
 python train_latent_space.py
-python experiments/scripts/train/infer_material.py
+python experiments/scripts/train/train_latent_optimization.py
 ```
 
 For evaluation:

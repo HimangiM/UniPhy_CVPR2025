@@ -9,7 +9,7 @@ import torch
 import torch.nn as nn
 import torch.backends.cudnn
 import warp as wp
-
+import os
 import nclaw
 from nclaw.material import ComposeMaterial, ComposeMaterialLatent
 from nclaw.sim import MPMModelBuilder, MPMStateInitializer, MPMStaticsInitializer, MPMInitData, MPMForwardSim
@@ -73,8 +73,8 @@ def main(cfg: DictConfig):
         plasticity.to(torch_device)
 
         if ckpt_path := blob_cfg.material.ckpt_latent:
-            print (f"Ckpt path loaded: {ckpt_path}")
-            ckpt = torch.load(log_root / ckpt_path, map_location=torch_device)
+            current_folder: Path = os.getcwd()
+            ckpt = torch.load(f"{current_folder}/{ckpt_path}", map_location=torch_device)
             elasticity.load_state_dict(ckpt['elasticity'])
             plasticity.load_state_dict(ckpt['plasticity'])
             trajectory_latent = torch.nn.Embedding.from_pretrained(ckpt['trajectory_latent'].weight, freeze=False).to(torch_device)
