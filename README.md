@@ -100,5 +100,10 @@ python experiments/scripts/eval/reconstruction.py --gt
 If you use any parts of our work, please cite the following:
 
 ```
-
+@article{mittal2025uniphy,
+  title={UniPhy: Learning a Unified Constitutive Model for Inverse Physics Simulation},
+  author={Mittal, Himangi and Zhuang, Peiye and Lee, Hsin-Ying and Tulsiani, Shubham},
+  journal={arXiv preprint arXiv:2505.16971},
+  year={2025}
+}
 ```
