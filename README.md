@@ -89,7 +89,7 @@ python train_latent_space.py
 python experiments/scripts/train/train_latent_optimization.py
 ```
 
-For evaluation:
+For evaluation, use the following command. To get the final results, please use the checkpoint named jelly.ckpt (and similarly the corresponding .ckpt file for other materials).
 
 ```bash
 python experiments/scripts/eval/reconstruction.py --gt
